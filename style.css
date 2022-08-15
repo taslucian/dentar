@@ -19,13 +19,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@media only screen and (max-width: 756px) {
-    .parellex-header {
-       display: none;
-    }
-  }
-
 .freze{
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,3 +27,17 @@
 .nume{
     background-color: rgba(0, 0, 0, 0.479);
 }
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 756px) {
+    .parellex-header {
+       display: none;
+    }
+  }
