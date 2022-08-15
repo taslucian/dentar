@@ -13,7 +13,7 @@
         rgba(0, 0, 0, 0.3)
         rgba(0, 0, 0, 0.8)
     );
-    background-image: url('./img/background_2_mini.jpg');
+    background-image: url('./img/backgroundi.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,6 +38,19 @@
 
 @media only screen and (max-width: 756px) {
     .parellex-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 40vh;
+        background: #000;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.3)
+            rgba(0, 0, 0, 0.8)
+        );
+        background-image: url('./img/background_mini.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
   }
