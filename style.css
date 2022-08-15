@@ -8,11 +8,8 @@
     align-items: center;
     justify-content: center;
     height: 60vh;
-    background: #000;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.3)
-        rgba(0, 0, 0, 0.8)
-    );
+    background: radial-gradient(#2c3352 #001d9e);
+
     background-image: url('./img/backgroundi.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -38,19 +35,9 @@
 
 @media only screen and (max-width: 756px) {
     .parellex-header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 40vh;
-        background: #000;
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.3)
-            rgba(0, 0, 0, 0.8)
-        );
-        background-image: url('./img/background_mini.jpg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url('');
+        height: 25vh;
+       
+        background-color: #162460;
     }
   }
