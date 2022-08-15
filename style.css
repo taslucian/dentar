@@ -38,6 +38,6 @@
 
 @media only screen and (max-width: 756px) {
     .parellex-header {
-       display: none;
+        height: 35vh;
     }
   }
