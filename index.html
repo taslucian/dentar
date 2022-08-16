@@ -350,6 +350,12 @@ background-image: url('./img/proteza.jpeg');">
                     <h1 class="text-center text-light">Contactează-mă!</h1>
                     <!-- Form -->
                     <form class="text-light" action="https://formsubmit.co/58ef873aa128775bba25592db329689a" method="POST">
+                      <!-- Honeypot -->
+                      <input type="text" name="_noney" style="display: none;">
+
+                      <!-- Disable Captcha -->
+                      <input type="text" name="_captcha" value="false">
+
                       <label for="LaatName" class="form-label mt-3">Nume</label>
                       <input type="text" class="form-control mb-2" name="name" id="lastName" required>
                       <label for="emailInfo" class="form-label">E-mail</label>
