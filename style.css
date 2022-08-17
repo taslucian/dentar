@@ -23,15 +23,15 @@
     height: 60vh;
     background: radial-gradient(#2c3352 #001d9e);
 
-    background-image: url('./img/background.jpeg');
+    background-image: url('./img/motor.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.gol{
-    height: 20vh;
-}
+/*.gol{
+    height: 0vh;
+}*/
 .freze{
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,17 +67,33 @@
 .cb2:hover:hover .image{
     opacity: 1;
 }
+.map{
+    width: 500px;
+}
+.text-shadow{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+.firma{
+    font-size: 4rem;
+}
+h1{
+    font-size: 3.5rem;
+}
 
-
-
-
-
-@media only screen and (max-width: 756px) {
+@media (max-width: 768px) {
     .parellex-header {
-        background-image: url('./img/fundal.jpeg');
-        height: 30vh;  
+        background-size: contain;
+        background-position: center top;
+        max-height: 30vh;  
         background-color: rgb(17, 49, 101);
     }
     .gol{
         display: none;}
+    .map{
+        width: 300px;
+    }
+    .firma, h1{
+        font-size: calc(1.525rem + 3.3vw);
+    }
+    
   }
