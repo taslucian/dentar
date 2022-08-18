@@ -69,6 +69,7 @@
 }
 .map{
     width: 500px;
+    min-height: 680px;
 }
 .text-shadow{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -80,6 +81,7 @@
 }
 h1{
     font-size: 3.5rem;
+    
 }
 
 @media (max-width: 768px) {
@@ -93,9 +95,10 @@ h1{
         display: none;}
     .map{
         width: 300px;
+        min-height: 450px;
     }
     .firma, h1{
-        font-size: calc(1.525rem + 3.3vw);
+        font-size: calc(1.525rem + 3vw);
     }
     
   }
