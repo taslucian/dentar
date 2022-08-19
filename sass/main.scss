@@ -1,0 +1,25 @@
+
+
+$enable-transitions: true;
+$enable-gradients: true;
+
+$primary: #7ab2ff;
+$secondary: #13acc7;
+$warning: #6f762d;
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$custom-theme-colors: (
+    "lucian": #ff8181,
+    "altdark": #27043d
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+

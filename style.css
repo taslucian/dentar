@@ -3,22 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navbar-brand{
+    transition: 0.3s;
+}
+.navbar-brand:hover h4{
+    color: #7ab2ff;
+}
+.navbar-brand span{
+    color: #7ab2ff;
+    
+}
+.navbar-brand:hover span{
+    color: white;
+}
 .parellex-header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 90vh;
     background: radial-gradient(#2c3352 #001d9e);
 
-    background-image: url('./img/background.jpeg');
+    background-image: url('./img/motor.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.gol{
-    height: 20vh;
-}
+/*.gol{
+    height: 0vh;
+}*/
 .freze{
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,22 +45,70 @@
 }
 .cb2{
     background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
 }
 .card{
-    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.4);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+}
+.img-container{
+    position: relative;
+}
+.image{
+    opacity: 0.8;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.img-container:hover .image{
+    opacity: 1;
+}
+.cb2:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+.cb2:hover:hover .image{
+    opacity: 1;
+}
+.map{
+    width: 500px;
+    min-height: 680px;
+}
+.text-shadow{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.firma-1, .firma-2{
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+h1{
+    font-size: 3.5rem;   
+}
+.ho:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    z-index: 2;
 }
 
-
-
-
-
-
-@media only screen and (max-width: 756px) {
+@media (max-width: 768px) {
     .parellex-header {
-        background-image: url('');
-        height: 18vh;  
+        background-size: contain;
+        background-position: center top;
+        max-height: 30vh;  
         background-color: rgb(17, 49, 101);
     }
     .gol{
         display: none;}
+    .map{
+        width: 300px;
+        min-height: 450px;
+    }
+    .firma-1, .firma-2, h1{
+        font-size: calc(1.525rem + 2.9vw);
+    }
+    
+
+    
+
   }
